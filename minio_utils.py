@@ -1,6 +1,8 @@
 from minio import Minio
 import os
 
+#connecting to minio and downloading files from bucket
+#filepath includes the file path with bucket as root
 
 class MinioConnect:
     def __init__(self, minio_link, access_key, secret_key):
